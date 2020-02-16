@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <!--Ensure UTF-8 characters like Emoji are displayed correctly-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Demo of diagram">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Jiong Liu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <style>
+        .chart div {
+            font: 10px sans-serif;
+            background-color: steelblue;
+            text-align: right;
+            padding: 3px;
+            margin: 1px;
+            color: white;
+        }
+    </style>
+    <div class="chart"></div>
+
+    <!--Put at the end to ensure it's executed lastly-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src='./index.js'></script>
+</body>
+
+</html>

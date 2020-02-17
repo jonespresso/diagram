@@ -11,16 +11,16 @@
 
 <body>
     <style>
-        .chart div {
+        .chart rect {
+            fill: steelblue;
+        }
+        .chart text {
+            fill: white;
             font: 10px sans-serif;
-            background-color: steelblue;
-            text-align: right;
-            padding: 3px;
-            margin: 1px;
-            color: white;
+            text-anchor: middle;
         }
     </style>
-    <div class="chart"></div>
+    <svg class="chart"></svg>
 
     <!--Put at the end to ensure it's executed lastly-->
     <script src="https://d3js.org/d3.v5.min.js"></script>
